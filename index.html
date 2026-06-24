@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Language Translator,</title>
+    <link rel="stylesheet"href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <hl>Language Translator</hl>
+
+      <textarea id="inputText"placeholder="Enter text"></textarea>
+
+      <select id="language">
+        <option value="ta">Tamil</option>
+        <option value="hi">Hindi</option>
+        <option value="fr">French</option>
+      </select>
+
+      <button onclick="translateText()">Translate</button>
+
+      <h3>Translated Text:</h3>
+      <p id="output"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
